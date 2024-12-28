@@ -7,7 +7,7 @@ modebtn.addEventListener("click",()=>
         currmode="dark";
         console.log("mode is dark");
         document.querySelector("body").classList.add("dark");
-        document.querySelector("body").classList.remove("white")
+        document.querySelector("body").classList.remove("white");
     }
     else{
         currmode="light";
