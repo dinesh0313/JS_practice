@@ -9,13 +9,13 @@ async function API()
         setTimeout(()=>{
         console.log("weather data");
         resolve(200);
-        },6000)
+        },6000);
     });
 }
 
 async function getWeatherdata()
 {
-    await API();
+    await API();// await is used for waiting the function API() for calling the  
 }
 
 getWeatherdata();
